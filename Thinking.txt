@@ -17,6 +17,7 @@
 -- React ( react is a UI library for building UI)
  react help you to do create UI in component form. In react we create multiple component( ex- Header, Footer , button) then 
  you can combine those component and create react app. benefit of creating component is that you can use a component multiple time
+* Slack Component
 * Sidebar
   * ListOfChannel
   * ListOfDirectMessages
