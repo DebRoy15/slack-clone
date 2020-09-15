@@ -1,0 +1,28 @@
+1. Wire framing - Draw rough sketch of what you are actually going to build
+
+2. Functionality
+ * Sign in
+ * Sign up
+ * Create a channel
+ * Send message in a channel
+ * Join a channel
+ * Search a channel
+
+3. Data
+ * users
+ * channels
+ * messages
+
+4. UI
+-- React ( react is a UI library for building UI)
+ react help you to do create UI in component form. In react we create multiple component( ex- Header, Footer , button) then 
+ you can combine those component and create react app. benefit of creating component is that you can use a component multiple time
+* Sidebar
+  * ListOfChannel
+  * ListOfDirectMessages
+* MainContainer
+ * Header
+ * Message 
+ * CreateMessage
+* SignIn
+* SignUp
