@@ -1,0 +1,90 @@
+.sidebar {
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+  width: 230px;
+  min-width: 230px;
+  background: #3f0e40;
+  font-size: 15px;
+  min-height: 100vh;
+}
+.user_profile {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-weight: 700;
+  padding: 10px 15px;
+}
+.avatar img {
+  height: 40px;
+  margin-right: 15px;
+}
+.user_name {
+  color: white;
+}
+.top_message {
+  padding: 10px 15px;
+}
+.top_message h4 {
+  color: white;
+}
+.sidebar-spacer {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  margin: 0;
+}
+
+.channels {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.channels {
+  color: rgb(207, 195, 207);
+  padding: 10px 15px;
+}
+.channels h4 {
+  font-weight: 500;
+  color: rgb(207, 195, 207);
+  font-size: 15px;
+  padding: 10px 15px;
+}
+.channels ui li a {
+  color: rgb(207, 195, 207);
+  text-decoration: none;
+}
+.channels li {
+  padding: 7px 15px;
+}
+.channels li:hover {
+  background: #350d36;
+  cursor: pointer;
+}
+.direct_messages {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.direct_messages {
+  color: rgb(207, 195, 207);
+  padding: 10px 15px;
+}
+.direct_messages h4 {
+  font-weight: 500;
+  color: rgb(207, 195, 207);
+  font-size: 15px;
+  padding: 10px 15px;
+}
+.direct_messages ui li a {
+  color: rgb(207, 195, 207);
+  text-decoration: none;
+}
+.direct_messages li {
+  padding: 7px 15px;
+}
+.direct_messages li:hover {
+  background: #350d36;
+  cursor: pointer;
+}
